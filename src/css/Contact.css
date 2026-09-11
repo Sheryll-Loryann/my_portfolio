@@ -1,0 +1,39 @@
+.contact-ctn{
+    text-align: center;
+    margin: 5rem;
+}
+.contact-ctn h1{
+    color: var(--sec-color);
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.contact-ctn p{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    background: var(--accent-color);
+    padding: 0.5rem;
+
+    margin: 1rem auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+
+    transition: 0.3s ease;
+}
+ .contact-ctn p:hover{
+    transform: translateY(-2px);
+    background-color: var(--hover-color);
+}
+.contact-ctn p a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.contact-ctn p img{
+    width: 50px;
+}
+
+.contact-ctn p a{
+    text-decoration: none;
+    color: var(--text-color);
+}

@@ -1,0 +1,44 @@
+
+.hero{
+    min-height: 100vh;
+    padding: 30px;
+    font-size: 1.2rem;
+    
+    display: flex;
+    align-items: center;
+}
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero-content{
+    max-width: 800px;
+}
+.name{
+    color: var(--sec-color);
+}
+.glow{
+    color: var(--text-color);
+    text-shadow: 0 0 5px var(--hover-color),
+                 0 0 10px var(--hover-color),
+                 0 0 20px var(--hover-color),
+                 0 0 40px var(--hover-color);
+}
+.university a{
+    color: var(--sec-color);
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+    transition: 0.3s ease;
+    font-weight: 900;
+}
+.university a:hover{
+    color: var(--hover-color);
+    transform: translateY(-4px)
+}
+.hero h1{
+    margin-bottom: 1rem;
+}
+.hero p{
+    margin-bottom: 2rem;
+}

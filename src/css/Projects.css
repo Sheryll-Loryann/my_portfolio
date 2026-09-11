@@ -1,0 +1,16 @@
+.projects{
+    padding: 5rem 1rem;
+}
+
+.projects h1{
+    text-align: center;
+    color: var(--sec-color);
+    font-size: 3rem 0.5rem;
+}
+
+.project-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
