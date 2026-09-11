@@ -7,7 +7,7 @@ export default function Navbar({language, setLanguage}){
     return(
         <nav className="navbar">
             <div className="logo">
-                <a href="#home">Jane Doe</a>
+                <a href="#home">Sheryll Loryann</a>
             </div>
             <ul className="nav-links">
                 <li><a href="#home">{t.navbar.home}</a></li>

@@ -9,7 +9,7 @@ export default function Hero({language}){
             <div className="hero-content">
                 <h1>
                     {t.hero.greeting}
-                    <span className="name"> Jane Doe</span>
+                    <span className="name"> Sheryll Loryann</span>
                 </h1>
 
                 <p>
